@@ -10,7 +10,7 @@ function getConfig(pathname, base) {
       dir: dist,
       entryFileNames: "[name].dev.js",
       chunkFileNames: "[name]-[hash].dev.js",
-      format: "cjs",
+      format: "es",
       exports: "named",
       sourcemap: "inline",
     },

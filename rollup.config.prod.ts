@@ -11,7 +11,7 @@ function getConfig(pathname, base) {
       dir: dist,
       entryFileNames: "[name].prod.js",
       chunkFileNames: "[name]-[hash].prod.js",
-      format: "cjs",
+      format: "es",
       exports: "named",
     },
     plugins: [...base.plugins, terser()],
