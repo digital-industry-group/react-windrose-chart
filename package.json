@@ -92,16 +92,17 @@
     "ts-jest": "28.0.8",
     "ts-node": "10.9.1",
     "ts-node-dev": "2.0.0",
-    "typescript": "4.8.4"
+    "typescript": "4.8.4",
+    "styled-components": "^5.2.3"
   },
   "peerDependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-is": "^16.13.1"
+    "react-is": "^16.13.1",
+    "styled-components": "^5.2.3"
   },
   "dependencies": {
-    "d3": "^7.4.4",
-    "styled-components": "^5.3.5"
+    "d3": "^7.4.4"
   },
   "resolutions": {
     "prismjs": "^1.27.0",
